@@ -143,8 +143,9 @@ int main()
     //           Remember you may need to use cin.ignore()
     char userChar;
     cout << "Please enter a character: " << endl;
-    cin >> userChar;
-
+    // cin >> userChar;
+    cin.ignore(255, '\n');//Asked Professor Mao for help
+    cin.get(userChar);
     // Figure out whitespace characters
 
     cout << "Your character: " << userChar << " has a ASCII value of " << int(userChar) << endl;
