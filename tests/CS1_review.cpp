@@ -218,7 +218,7 @@ int main()
         int k = 4;                   // Create a variable that will print out the numbers
         for (int j = 4; j >= 0; j--) // Create a for loop that will cycle through 5 times
         {
-            if ((i) < j) // If i is less than j, the it will print out *. This creates ethe upside down effect
+            if ((i) < j) // If i is less than j, the it will print out *. This creates the upside down effect
             {
                 cout << setw(2) << "*";
             }
